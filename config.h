@@ -9,10 +9,10 @@ static const unsigned int gappiv    = 10;       /* vert inner gap between window
 static const unsigned int gappoh    = 10;       /* horiz outer gap between windows and screen edge */
 static const unsigned int gappov    = 10;       /* vert outer gap between windows and screen edge */
 static const int smartgaps          = 1;        /* 1 means no outer gap when there is only one window */
-static const int showbar            = 1;        /* 0 means no bar */
+static const int showbar            = 0;        /* 0 means no bar */
 static const int topbar             = 0;        /* 0 means bottom bar */
-static const char *fonts[]          = { "TerminessTTF Nerd Font Mono:style=medium:size=12" };
-static const char dmenufont[]       = "TerminessTTF Nerd Font Mono:style=medium:size=12";
+static const char *fonts[]          = { "Sauce Code Pro Nerd Font Mono:style=medium:size=12" };
+static const char dmenufont[]       = "Sauce Code Pro Font Mono:style=medium:size=12";
 static char normbgcolor[]           = "#1d1b18";
 static char normbordercolor[]       = "#444444";
 static char normfgcolor[]           = "#cfc5b4";
